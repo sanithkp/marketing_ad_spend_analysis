@@ -1,19 +1,19 @@
 #Digital Marketing Ad Spend Analysis
 Performance analysis of global digital marketing campaigns across Google, Meta and TikTok platforms for 2024.
 
-##Overview
+## Overview
 
 This project analyses 1,800 marketing campaign records across 3 platforms, 4 campaign types, 5 industries and 7 countries to identify what drives returns and where budget is being wasted.
 The core business question: Which campaigns are generating real returns and where is money being lost?
 
-##Dataset
+## Dataset
 
 Source: Kaggle — Digital Marketing Metrics & KPIs Dataset
 Records: 1,800 campaigns
 Period: January 2024 — December 2024
 Columns: date, platform, campaign_type, industry, country, impressions, clicks, CTR, CPC, ad_spend, conversions, CPA, revenue, ROAS
 
-##Data Validation
+## Data Validation
 
 This dataset had no missing values or duplicates. However metric validation was performed:
 
@@ -23,12 +23,12 @@ CPC verified against Spend/Clicks ✅
 Minimum ad spend of $58 — no zero spend campaigns ✅
 135 campaigns identified with ROAS < 1 — loss-making campaigns flagged for analysis
 
-##Tools Used
+## Tools Used
 
 SQL Server (MSSQL) — data analysis and KPI calculation
 Power BI — interactive 4-page dashboard
 
-##KPIs Calculated
+## KPIs Calculated
 
 KPI                Formula                                        Business Question
 ROAS               Revenue / Ad Spend                              Revenue per $1 spent
@@ -38,7 +38,7 @@ CVR                Conversions / Clicks × 100                      Click to con
 CPA                Spend / Conversions                             Cost per conversion
 CPM                Spend / Impressions × 1000                      Cost per 1000 impressions  
 
-##Analysis Structure
+## Analysis Structure
 
 1. Overall Performance
 
@@ -113,7 +113,7 @@ Key finding:
 * Google accounts for 68% of all loss campaigns (92 out of 135)
 * Google wasted $966,966 — 81% of total wasted spend
 
-##Key Business Recommendations
+## Key Business Recommendations
 
 * Reallocate budget from Google to TikTok — TikTok delivers 7.62x ROAS vs Google's 3.47x with significantly lower waste
 * Prioritise Search campaigns — highest ROAS (5.31x) and lowest CPA ($31.64) across all campaign types
@@ -122,7 +122,7 @@ Key finding:
 * Reduce spend in May-July — consistent Q2 underperformance (ROAS 4.17–4.63x) vs Q4 strength
 * Increase Healthcare investment — highest CVR at 4.74% despite lower CTR indicates high-quality audience
 
-##Dashboard Pages
+## Dashboard Pages
 
 Overview — KPI cards, monthly revenue trend, spend vs revenue by month
 Platform Analysis — ROAS by platform, spend distribution, loss campaigns by platform
