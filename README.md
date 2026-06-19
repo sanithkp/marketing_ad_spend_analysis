@@ -130,3 +130,17 @@ Overview — KPI cards, monthly revenue trend, spend vs revenue by month
 Platform Analysis — ROAS by platform, spend distribution, loss campaigns by platform
 Campaign & Industry — ROAS by campaign type, industry, country, conversions by type
 Underperformance Analysis — Wasted spend, loss campaigns, gauge charts
+
+## Dashboard Preview
+
+### Overview
+![Overview](overview.PNG)
+
+### Platform Analysis
+![Platform Analysis](platform_analysis.PNG)
+
+### Campaign & Industry
+![Campaign & Industry](campaign_analysis.PNG)
+
+### Underperformance Analysis
+![Underperformance](underperform_campaigns.PNG)
